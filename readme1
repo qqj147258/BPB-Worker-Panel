@@ -1,0 +1,9 @@
+利用Cloudflare大善人高速节点，一键订阅到各种客户端！重要的是设置技巧，设置技巧，设置技巧！
+【使用资源】
+测速工具：https://github.com/XIU2/CloudflareSpe...
+BNP Panel:https://github.com/bia-pain-bache/BPB...
+Fofa网址:https://fofa.info/
+批量IP查询：https://reallyfreegeoip.org/bulk
+CF的IP语法：server=="cloudflare" && port=="443" && region=="HK" && (asn=="13335" || asn=="209242" || asn=="396982" || asn=="132892" || asn=="202623")
+反代CF的IP的语法：server=="cloudflare" && port=="443" && header="Forbidden" && region=="HK" && asn!="13335" && asn!="209242" && asn!="396982" && asn!="132892" && asn!="202623"
+【可可自用】
